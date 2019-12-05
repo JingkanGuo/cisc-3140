@@ -1,0 +1,164 @@
+Script started on Wed Dec  4 18:11:33 2019
+[?1034hbash-3.2$ sqlite3 test.db
+SQLite version 3.16.0 2016-11-04 19:09:39
+Enter ".help" for usage hints.
+sqlite> create table mytable(data[Ke TEXY[KT,
+   ...> organized INTEGER de[K[KDEG[KFAULT i[K1[K5[K0[K5[K0[K5,
+   ...> undes[Kes[K[Krstand INTEG[KGER DEFAULT %[K5,
+   ...> topics INTEGER DEFAULT 5,
+   ...> L[Klearned INE[KTEGER DEFAULT 5,[K);
+sqlite> .table
+mytable
+sqlite> sel[K[Kelse[K[Kect * fr[K[K[K[K[K[K[K[K[K.mode csv
+sqlite> .import 2308.scv[K[K[Kcsv mytable
+2308.csv:1: expected 5 columns but found 9 - extras ignored
+2308.csv:2: expected 5 columns but found 9 - extras ignored
+2308.csv:3: expected 5 columns but found 9 - extras ignored
+2308.csv:4: expected 5 columns but found 9 - extras ignored
+2308.csv:5: expected 5 columns but found 9 - extras ignored
+2308.csv:6: expected 5 columns but found 9 - extras ignored
+2308.csv:7: expected 5 columns but found 9 - extras ignored
+2308.csv:8: expected 5 columns but found 9 - extras ignored
+2308.csv:9: expected 5 columns but found 9 - extras ignored
+2308.csv:10: expected 5 columns but found 9 - extras ignored
+2308.csv:11: expected 5 columns but found 9 - extras ignored
+2308.csv:12: expected 5 columns but found 9 - extras ignored
+2308.csv:13: expected 5 columns but found 9 - extras ignored
+2308.csv:14: expected 5 columns but found 9 - extras ignored
+2308.csv:15: expected 5 columns but found 9 - extras ignored
+2308.csv:16: expected 5 columns but found 9 - extras ignored
+2308.csv:17: expected 5 columns but found 9 - extras ignored
+2308.csv:18: expected 5 columns but found 9 - extras ignored
+2308.csv:19: expected 5 columns but found 9 - extras ignored
+2308.csv:20: expected 5 columns but found 9 - extras ignored
+sqlite> .co[K[Kmode clum[K[K[Kolumn
+sqlite> seles[Kct * from my tab[K[K[Ktable;
+11/13/2019 14:44:07  4           3           5           4         
+11/13/2019 14:46:09  4           3           3           4         
+11/13/2019 14:46:18                                                
+11/13/2019 14:46:42  5           3           4           2         
+11/13/2019 14:47:38  5           5           5           5         
+11/13/2019 14:48:06  5           5           5           5         
+11/13/2019 14:48:18  4           4           3           5         
+11/13/2019 14:49:16  3           2           3           4         
+11/13/2019 14:50:25  3           4           4           3         
+11/13/2019 14:51:55  4           4           4           4         
+11/13/2019 14:53:17  4           3           4           4         
+11/13/2019 14:57:12  5           5           5           5         
+11/13/2019 15:26:03  3           3           4           2         
+11/13/2019 16:15:36              3           3           3         
+11/13/2019 18:25:22  4           3           4           4         
+11/13/2019 22:40:04  4           4           4           4         
+11/14/2019 18:16:37  3           3           3           4         
+11/21/2019 19:22:43  4           4           5           3         
+11/22/2019 15:04:24  4           4           4           5         
+11/24/2019 16:01:15  5           5           5           5         
+sqlite> insert into myb[Ktable[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kupadte mytable 
+   ...> set or[Krganized = 1[K5,
+   ...> top[K[K[Kunderstand = 5,
+   ...> topic s = 5,
+   ...> learned = 5,[K;[K
+   ...> where data[Ke = "[K""1"1"/"1"3"/"2"0"1"9" "1"4":"4"6":"1"8"";
+Error: near "upadte": syntax error
+sqlite> where date = "11/13/2019 14:46:18";[9G[Kwhere date = "11/13/2019 14:46:18";[9Glearned = 5[K[9Gtopics = 5,[9G[4@understand[24G[9G[3@set organize[27G[9Gupadte mytable[K[9Gselect * from mytable;[9Gupadte mytable[K
+   ...> upadte mytable[9G[K;
+Error: near "upadte": syntax error
+sqlite> ;upadte mytable[9Gwhere date = "11/13/2019 14:46:18";[9Gupadte mytable[K[Pt[Pt[1@dt[1@atte mytab
+   ...> update mytable[9G;[Kupadte mytable[9Gwhere date = "11/13/2019 14:46:18";[9Glearned = 5[K[9Gtopics = 5,[9G[4@understand[24G[9G[3@set organize[27G
+   ...> set organized = 5,[9Gupdate mytable[K[9G;[Kupadte mytable[9Gwhere date = "11/13/2019 14:46:18";[9Gupadte mytable[K[9Gwhere date = "11/13/2019 14:46:18";[9Glearned = 5[K[9Gtopics = 5,[9G[4@understand[24G
+   ...> understand = 5,[9G[3@set organize[27G[9Gupdate mytable[K[9G;[Kupadte mytable[9Gwhere date = "11/13/2019 14:46:18";[9Glearned = 5[K[9Gtopics = 5,
+   ...> topics = 5,[9G[4@understand[24G[9G[3@set organize[27G[9Gupdate mytable[K[9G;[Kupdate mytable[9G;[Kupadte mytable[9Gwhere date = "11/13/2019 14:46:18";[9Glearned = 5[K
+   ...> learned = 5[9Gtopics = 5,[9G[4@understand[24G[9G[3@set organize[27G[9Gupdate mytable[K[9G;[Kupadte mytable[9Gwhere date = "11/13/2019 14:46:18";
+sqlite> sel[Klect * from mytable;
+11/13/2019 14:44:07  4           3           5           4         
+11/13/2019 14:46:09  4           3           3           4         
+11/13/2019 14:46:18  5           5           5           5         
+11/13/2019 14:46:42  5           3           4           2         
+11/13/2019 14:47:38  5           5           5           5         
+11/13/2019 14:48:06  5           5           5           5         
+11/13/2019 14:48:18  4           4           3           5         
+11/13/2019 14:49:16  3           2           3           4         
+11/13/2019 14:50:25  3           4           4           3         
+11/13/2019 14:51:55  4           4           4           4         
+11/13/2019 14:53:17  4           3           4           4         
+11/13/2019 14:57:12  5           5           5           5         
+11/13/2019 15:26:03  3           3           4           2         
+11/13/2019 16:15:36              3           3           3         
+11/13/2019 18:25:22  4           3           4           4         
+11/13/2019 22:40:04  4           4           4           4         
+11/14/2019 18:16:37  3           3           3           4         
+11/21/2019 19:22:43  4           4           5           3         
+11/22/2019 15:04:24  4           4           4           5         
+11/24/2019 16:01:15  5           5           5           5         
+sqlite> upt[Kdate organized = 5[K[K[K[K[K[K[K[K[K[K[Kmya[Ktable;[K
+   ...> set organized = 5 ;[K
+   ...> wher[K[Kre[K[Kere data[Ke = ""1"1"/"1"3"/"2"0"1"9" "1"6":"1"5":"3"6"";
+sqlite> where date = "11/13/2019 16:15:36";[9Gset organized = 5[K[9Gupdate mytable[K[9Gselect * from mytable;[9Gwhere date = "11/13/2019 14:46:18";[9Glearned = 5[K[9Gwhere date = "11/13/2019 14:46:18";[9Gselect * from mytable;[K
+11/13/2019 14:44:07  4           3           5           4         
+11/13/2019 14:46:09  4           3           3           4         
+11/13/2019 14:46:18  5           5           5           5         
+11/13/2019 14:46:42  5           3           4           2         
+11/13/2019 14:47:38  5           5           5           5         
+11/13/2019 14:48:06  5           5           5           5         
+11/13/2019 14:48:18  4           4           3           5         
+11/13/2019 14:49:16  3           2           3           4         
+11/13/2019 14:50:25  3           4           4           3         
+11/13/2019 14:51:55  4           4           4           4         
+11/13/2019 14:53:17  4           3           4           4         
+11/13/2019 14:57:12  5           5           5           5         
+11/13/2019 15:26:03  3           3           4           2         
+11/13/2019 16:15:36  5           3           3           3         
+11/13/2019 18:25:22  4           3           4           4         
+11/13/2019 22:40:04  4           4           4           4         
+11/14/2019 18:16:37  3           3           3           4         
+11/21/2019 19:22:43  4           4           5           3         
+11/22/2019 15:04:24  4           4           4           5         
+11/24/2019 16:01:15  5           5           5           5         
+sqlite> c[Kma[K[Ks[Ksele[K[K[K[Kselect my [K[Kmax[K[K[Km[KM[KMAX()o)r)g)a)n)i)z)e)d)) from mytable[K[K[K[K[K[K[K[K[K[K[Kas ""m"a"x" "o"f" "o"r"g"a"n"i"z"e"d""
+   ...> from mytable;
+5               
+sqlite> sfrom mytable;[9Gselect MAX(organized) as "max of organized"[16G* from mytable;[K[16GMAX(organized) as "max of organized"[P([P([P([1@M([1@I([1@N((organized) as "max[P [P [P [1@m [1@i [1@n  of organized
+   ...> from ma[Kytable;
+3               
+sqlite> from mytable;[9Gselect MIN(organized) as "min of organized"[Pn[Pnn[P [1@a [1@v [1@g [P([P([P([1@A([1@V([1@G([P([P([P([1@A([1@V([1@G((org
+   ...> from mytable;
+4.15            
+sqlite> sfrom mytable;[K[K[K[K[K[K[K[K[K[K[K[K
+sqlite> from mytable;[9Gselect AVG(organized) as "avg of organized"[9Gfrom mytable;[K[9Gselect MIN(organized) as "min of organized"[9Gfrom mytable;[K[9Gselect MAX(organized) as "max of organized"[16G* from mytable;[K[16GMAX(organized) as "max of organized"[16G* from mytable;[K[16GMAX(organized) as "max of organized"d[P)[P)[P)[P)[P)[P)[P)[P)[P)[1@u)[1@n)[1@d)[1@e)[1@r)[1@s)[1@t)[1@a)[1@n)[1@d)) as "max of organized"[K"[K"[K"[K"[K"[K"[K"[K"[Ku"n"d"e"r"s"t"a"n"d""
+   ...> from myt[Ktable;
+5                
+sqlite> from mytable;[9G[Kfrom mytable;[9Gselect MAX(understand) as "max of understand"[P [P [P [1@m [1@i [1@n X[P([P([P([1@M([1@I([1@N((underst
+   ...> from mytable;
+2                
+sqlite> from mytable;[9Gselect MIN(understand) as "min of understand"[Pn[Pnn[P [1@a [1@v [1@g [P([P([P([1@A([1@V([1@G((unders
+   ...> from mytable;
+3.75             
+sqlite> 
+sqlite> from mytable;[9Gselect AVG(understand) as "avg of understand"[P [P [P [1@m [1@a [1@x G[P([P([P([1@M([1@A([1@X((understand) as "max of understand"
+   ...> from muta[K[K[Kytable;[9Gselect MAX(understand) as "max of understand"[9Gfrom mytable;[K[9Gselect AVG(understand) as "avg of understand"[9Gfrom mytable;[K
+5                
+sqlite> 
+sqlite> from mytable;[9Gselect MAX(understand) as "max of understand"X(understand[P)[P)[P)[P)[P)[P)[P)[P)[P)[P)[1@t)[1@o)[1@p)[1@i)[1@c)[1@ )[P)[1@s)) as "max of understand"[K"[K"[K"[K"[K"[K"[K"[K"[K"[Kt"o"p"i"c"s""
+   ...> from mytable;
+5            
+sqlite> from mytable;[9Gselect MAX(topics) as "max of topics"x[P [P [P [1@m [1@i [1@n [P([P([P([1@M([1@N([P([1@I([1@N((top
+   ...> from mytable;
+3            
+sqlite> from mytable;[9Gselect MIN(topics) as "min of topics"[P [P [P [1@a [1@v [1@b [P [1@g N[P([P([P([1@A([1@V([1@G((topics
+   ...> from mytable;
+4.1          
+sqlite> 
+sqlite> from mytable;[9Gselect AVG(topics) as "avg of topics"s"[K"[K"[K"[K"[K"[Kl"e"a"r"n"e"d"g[P [P [P [1@m [1@a [1@x G[P([P([P([1@m([1@a([1@x([P([P([P([1@M([1@A([1@X((topics[P)[P)[P)[P)[P)[P)[1@l)[1@e)[1@a)[1@r)[1@n)[1@e)[1@d))))) as "max of learned"
+   ...> from mytable;
+5             
+sqlite> from mytable;[9Gselect MAX(learned) as "max of learned"x[1@\ [P [P [P [1@i [1@n [P([P([1@I([1@N((learn
+   ...> from mytable;
+2             
+sqlite> from mytable;[9Gselect MIN(learned) as "min of learned""min[P [P [P [1@a [1@b [1@f [P [P [1@v [1@g N[P([P([P([1@A([1@V([1@G((learned) as "avg of l
+   ...> fo[Krom mytabl[Kle;
+4.0           
+sqlite> .quit
+bash-3.2$ exit
+exit
+
+Script done on Wed Dec  4 18:33:16 2019
