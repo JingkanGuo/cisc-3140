@@ -1,0 +1,53 @@
+Jingkan Guo
+23732308
+
+
+Week of Monday 9/9/19 to Sunday 9/15/19
+	Analyze what technologies will be used in web pages.
+	Decided to use Notepad++ as the main software.
+
+Week of Monday 9/16/19 to Sunday 9/22/19
+	Assign tasks according to the initial demo given by the product team.
+	Learn techniques for using sort by option and drop-down menu. (see sort.html and dropdown.html )
+
+Week of Monday 9/23/19 to Sunday 9/29/19
+	Improved app's inability to link CSS files.
+	Learn how to make a header based on the requirements given by the back-end team.
+	Analyze the problem that the Flask cannot decode the local address.
+
+Week of Monday 9/30/19 to Sunday 10/6/19
+	By asking questions on stackoverflow, asking Alex, and looking through a lot of informations, the problem was unsolvable.
+	Decide to switch between Mac OS and Windows, and test how the HTML code works in browsers on different systems.
+	Provide a header for the back-end team. (see header.html)
+
+Week of Monday 10/7/19 to Sunday 10/13/19
+	Discuss the work assignments between teams based on the blueprints.
+	According to the design of product team, the overall frame of the profile page and the design of the left part are given. (see nav bar left.html)
+	
+Week of Monday 10/14/19 to Sunday 10/20/19
+	Ask product team for design requirements.
+	According to the Suggestions given by the product team, the contents on the right side of the nav bar left.html were supplemented and modified.	(see frontpage.html)
+
+Week of Monday 10/21/19 to Sunday 10/27/19
+	Wait for more UI design.
+	Prepare the midterm exams for other course.
+
+Week of Monday 10/28/19 to Sunday 11/3/19
+	Prepare the midterm exams for other course.
+
+Week of Monday 11/4/19 to Sunday 11/10/19
+	Prepare the midterm exams for this course.
+
+Week of Monday 11/11/19 to Sunday 11/17/19
+	Based on the design, discuss how to implement the contents of each tab.
+	Implement part of the tab functionality. (see project name.html and about me.html)
+
+Week of Monday 11/18/19 to Sunday 11/24/19
+	Analyze how to implement the inquire me tab.
+	Through the study, completed the last tab function. (see inquiry tab.html)
+
+Week of Monday 11/25/19 to Sunday 12/1/19
+	I had to stop working on the project and prepare for CISC 2820's midterm and 11 pages paper.
+	
+
+
