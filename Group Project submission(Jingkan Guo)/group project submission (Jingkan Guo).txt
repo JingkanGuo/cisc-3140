@@ -4,7 +4,7 @@
     Jingkan Guo
     Youstina Samuel
 
-3. Link to final code: 
+3. Link to final code: inside file name(frontend_templates_without_python)
 	https://github.com/bc-cisc3140-mw2-fall2019/class_project.git
-    Link to presentation slides: 
+   Link to presentation slides: 
 	https://docs.google.com/presentation/d/194Ea7DNbQLToTcvleTjJe-1VLH18I8y2dYZZdL-3-DM/edit?usp=sharing
